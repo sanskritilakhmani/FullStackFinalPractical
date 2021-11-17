@@ -1,0 +1,87 @@
+.nav{
+    background-color: white;
+    z-index: 9;
+    padding: 10px;
+    padding-left: 50px;
+    padding-right: 50px;
+    display: flex;
+    box-shadow: 0px 3px 65px 0px rgba(0,0,0,.15);
+  }
+  .nav_top{
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+  }
+  .logo{
+    float: left;
+    width: 60%;
+  }
+  .logo img{
+    padding: 10px;
+  
+  }
+  .nav_side{
+    float: right;
+    width: 40%;
+    margin-top: 30px;
+  }
+  .nav_side a{
+    text-decoration: none;
+    margin-right: 20px;
+    color: black;
+    font-weight: bold;
+    font-family: cosmic, sans-serif;
+    font-size: 15px;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+  }
+  #active{
+    color: orange;
+  }
+  
+  .main{
+    background-image: url('image/bg.jpeg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 85vh;
+  }
+  .main .main_content{
+    padding-top: 15%;
+    margin-left: 10%;
+    margin-right: 10%;
+  }
+  .main .main_content h2{
+    color: white;
+    font-size: 50px;
+    font-family: cosmic, sans-serif;
+    font-weight: bolder;
+    text-align: left;
+  }
+  .main .main_content h2 span{
+    font-size: 20px;
+    opacity: 0.5;
+    color: white;
+    font-weight: 400;
+    line-height: 10px;
+  }
+  .main .btn a{
+    background-color: orange;
+    padding: 15px 20px;
+    border-color: orange;
+    border-radius: 5px;
+    align-items: center;
+    color: white;
+  }
+  .main input{
+    padding: 15px 20px;
+    width: 500px;
+    border: none;
+    border-radius: 5px;
+    margin-left: -12px;
+  }
+  
